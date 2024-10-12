@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #090c10;
+}
+
+header {
+    background-color: #1A202C;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 77px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 990px;
+}
+
+.column {
+    flex-direction: column;
+}
+.margin {
+    margin-top: 20px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 1;
+}
+#geral aside {
+    flex: 1;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow:
+        0 0 20px #ff9900,
+        0 0 30px #ff6600,
+        0 0 40px #ff3300,
+        0 0 50px #ff0000;
+}
+
+@keyframes BgAnimation {
+    0% { background-image: url('https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-maxtitanium-instagram-4.jpg');}
+    25% { background-image: url('https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-maxtitanium-instagram-3.jpg');}
+    50% { background-image: url('https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-maxtitanium-instagram-2.jpg');}
+    70% { background-image: url('https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-maxtitanium-instagram-1.jpg');}
+    100% { background-image: url('https://blog.maxtitanium.com.br/wp-content/uploads/2023/06/paulo-muzy-maxtitanium-instagram-6.jpg');}
+}
+
+article .thumb {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+article .imagens{
+    width: 634px;
+    aspect-ratio: auto 634 / 634;
+    height: 634px;
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.25);
+    animation: BgAnimation 10s linear infinite;
+}
+article .resume {
+    /* line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #9ca5b5;
+    
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    height: 670px;
+}
+
+.comquer li {
+    color: #9ca5b5;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6; 
+}
+
+footer {
+    background-color: #1A202C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.altorais,
+.altorais a {
+    color: #fff;
+    text-decoration: none;
+}
