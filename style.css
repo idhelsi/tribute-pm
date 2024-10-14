@@ -123,4 +123,8 @@ footer {
     .container {
         width: 340px;
     }
+    
+    article .imagens {
+        height: 400px;
+    }
 }
